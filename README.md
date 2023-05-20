@@ -4,7 +4,7 @@ This template is made for the _Translating Spreadsheets into Maintainable Softwa
 
 ## Features
 
-- ⚡️ Build with [Vue 3](https://github.com/vuejs/vue-next),
+- ⚡️ Built with [Vue 3](https://github.com/vuejs/vue-next),
   [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/) and
   [ESBuild](https://github.com/evanw/esbuild)
 - ⚙️ Type safety with [TypeScript](https://www.typescriptlang.org/)
