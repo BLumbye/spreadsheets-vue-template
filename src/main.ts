@@ -5,7 +5,7 @@ import App from './App.vue';
 import { createPinia } from 'pinia';
 import { createRouter, createWebHistory } from 'vue-router';
 import routes from '~pages';
-import { spreadsheetsPlugin } from 'spreadsheets-vue';
+import { spreadsheets } from 'spreadsheets-vue';
 import 'spreadsheets-vue/style.css';
 
 const router = createRouter({
@@ -19,6 +19,6 @@ const app = createApp(App);
 
 app.use(router);
 app.use(pinia);
-app.use(spreadsheetsPlugin);
+app.use(spreadsheets);
 
 app.mount('#app');
