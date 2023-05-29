@@ -22,6 +22,10 @@ header {
   align-items: center;
   padding: 0.5rem 1rem;
   background-color: #3b3b3b;
+
+  @media (prefers-color-scheme: light) {
+    background-color: #f1f1f1;
+  }
 }
 
 nav {
@@ -35,13 +39,26 @@ a {
   border-radius: 0.25rem;
   transition: background-color 0.15s;
 
+  @media (prefers-color-scheme: light) {
+    color: black;
+  }
+
   &:hover {
     background-color: #4f4f4f;
+
+    @media (prefers-color-scheme: light) {
+      background-color: #ffffff;
+    }
   }
 
   &.router-link-active {
     background-color: #4d4d4d;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+    @media (prefers-color-scheme: light) {
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.12);
+    }
   }
 }
 </style>
