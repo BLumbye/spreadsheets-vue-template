@@ -6,6 +6,7 @@
       <router-link to="/basics">Basics</router-link>
       <router-link to="/advanced">Advanced</router-link>
       <router-link to="/charts">Charts</router-link>
+      <router-link to="/library-showcase">Library showcase</router-link>
     </nav>
   </header>
 </template>
